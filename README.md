@@ -54,9 +54,11 @@ the database URL as well as the authentication key.
 
 ## Statistical Evaluation
 ![Stats picture](https://github.com/ahsanali2000/Temp-humidity/blob/main/images/stats.png)
+
 The maximum temperature of the room was 29 degrees, which was when we turned on the room heater. The minimum temperature was observed to be 9.8 degrees, which during the night. The average temperature throughout the day was 20.3 degrees, which is because the heater was on throughout the day. Standard deviation was observed to be only 2.01 which might be due to the reason, because the sensor was placed in a confined environment. Maximum humidity is when we blew air on the sensor for testing. The average humidity is 18.33% which concludes that temperature was not humid throughout the day, and there was only a small variation of 4.8% during the day.
 
 ## Correlation
 ![Correlation picture](https://github.com/ahsanali2000/Temp-humidity/blob/main/images/corr.png)
+
 The correlation between temperature and humidity is inverse and is close to zero. This leads to the
 conclusion temperature and humidity are not related.
