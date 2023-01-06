@@ -1,10 +1,10 @@
 # Temperature and humidity sensing with firebase storage
 
 ## INTRODUCTION
-> Temprature and Humidity is sensed using a DHT11 sensor and the data is sent to Firebase for storage and a webapp is used to display the data. The project is based on temperature and humidity monitoring of environment. This project aims at the environments where air conditions might be extreme or need to be controlled. Humidity and Temperature are of importance when considered together and are quite crucial to many industries. Level of humidity not only affects individuals but also affects manufacturing processes, or storage in the industry. For examples, in semiconductor industry moisture level need to be controlled properly to ensure wafer processing. Humidity and Temperature monitoring is also important in incubators, respiratory equipment and biological products. Such type of systems constantly monitor environment and generate alerts if the parameters being recorded exceed a certain threshold.
+Temprature and Humidity is sensed using a DHT11 sensor and the data is sent to Firebase for storage and a webapp is used to display the data. The project is based on temperature and humidity monitoring of environment. This project aims at the environments where air conditions might be extreme or need to be controlled. Humidity and Temperature are of importance when considered together and are quite crucial to many industries. Level of humidity not only affects individuals but also affects manufacturing processes, or storage in the industry. For examples, in semiconductor industry moisture level need to be controlled properly to ensure wafer processing. Humidity and Temperature monitoring is also important in incubators, respiratory equipment and biological products. Such type of systems constantly monitor environment and generate alerts if the parameters being recorded exceed a certain threshold.
 
 ## OUTCOMES
-> Temperature monitoring system are versatile and hence can prove to be very efficient in keeping the environment controlled and stable. They aid in saving time, thereby increasing productivity, maintain regulatory compliance, hence increasing the quality of products. It is expected that the monitoring system achieves the following outcomes: 
+Temperature monitoring system are versatile and hence can prove to be very efficient in keeping the environment controlled and stable. They aid in saving time, thereby increasing productivity, maintain regulatory compliance, hence increasing the quality of products. It is expected that the monitoring system achieves the following outcomes: 
 
 * Continuously monitor the environment for humidity and temperature conditions
 * Generate alerts if the present conditions reach or exceed a certain threshold
@@ -47,13 +47,16 @@ the database URL as well as the authentication key.
 
 ## Web Interface
 
-# going to add pics
+![Web chart picture 1](https://github.com/ahsanali2000/Temp-humidity/blob/main/images/1.png)
+![Web chart picture 2](https://github.com/ahsanali2000/Temp-humidity/blob/main/images/2.png)
+![Web chart picture 3](https://github.com/ahsanali2000/Temp-humidity/blob/main/images/3.png)
+![Web chart picture 4](https://github.com/ahsanali2000/Temp-humidity/blob/main/images/4.png)
 
 ## Statistical Evaluation
-# Pic goes here
-> The maximum temperature of the room was 29 degrees, which was when we turned on the room heater. The minimum temperature was observed to be 9.8 degrees, which during the night. The average temperature throughout the day was 20.3 degrees, which is because the heater was on throughout the day. Standard deviation was observed to be only 2.01 which might be due to the reason, because the sensor was placed in a confined environment. Maximum humidity is when we blew air on the sensor for testing. The average humidity is 18.33% which concludes that temperature was not humid throughout the day, and there was only a small variation of 4.8% during the day.
+![Stats picture](https://github.com/ahsanali2000/Temp-humidity/blob/main/images/stats.png)
+The maximum temperature of the room was 29 degrees, which was when we turned on the room heater. The minimum temperature was observed to be 9.8 degrees, which during the night. The average temperature throughout the day was 20.3 degrees, which is because the heater was on throughout the day. Standard deviation was observed to be only 2.01 which might be due to the reason, because the sensor was placed in a confined environment. Maximum humidity is when we blew air on the sensor for testing. The average humidity is 18.33% which concludes that temperature was not humid throughout the day, and there was only a small variation of 4.8% during the day.
 
 ## Correlation
-# pic goes here
-> The correlation between temperature and humidity is inverse and is close to zero. This leads to the
+![Correlation picture](https://github.com/ahsanali2000/Temp-humidity/blob/main/images/corr.png)
+The correlation between temperature and humidity is inverse and is close to zero. This leads to the
 conclusion temperature and humidity are not related.
